@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DARKTzY HOSTING</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #1f1f1f;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4a90e2, #50e3c2);
+      color: white;
+      padding: 3rem 1rem 4rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-weight: 700;
+      font-size: 2.8rem;
+      margin: 0;
+      letter-spacing: 1px;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+
+    section {
+      padding: 30px 20px;
+    }
+
+    .social-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .wa { background: #25D366; }
+    .wa:hover { background: #1ebe57; }
+    .tg { background: #0088cc; }
+    .tg:hover { background: #0077b3; }
+    .ch { background: #4a4a4a; }
+    .ch:hover { background: #666; }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .product-card {
+      background: linear-gradient(135deg, #4a90e2, #50e3c2);
+      border-radius: 10px;
+      padding: 15px;
+      width: 250px;
+      text-align: left;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .product-card h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2em;
+    }
+
+    .product-card p {
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .product-card a {
+      display: inline-block;
+      background: #25D366;
+      padding: 8px 15px;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: linear-gradient(135deg, #4a90e2, #50e3c2);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .form-container input,
+    .form-container textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+    }
+
+    .form-container button {
+      padding: 10px 20px;
+      background: #50e3c2;
+      color: #1f1f1f;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .success { text-align: center; color: #dff0d8; margin-bottom: 15px; }
+    .error { text-align: center; color: #f2dede; margin-bottom: 15px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://files.catbox.moe/fdbwy7.jpg" alt="Logo DARKTzY" />
+    <h1>Selamat Datang di DARKTzY HOSTING</h1>
+  </header>
+
+  <section>
+     <h2>Tentang Saya</h2>
+     <p>Halo, saya DARKTzY. Ini adalah halaman pribadi saya yang berisi informasi singkat tentang saya, keahlian, dan produk buatan saya.</p>
+       <div class="social-buttons">
+        <a class="wa" href="https://wa.me/6288293357932" target="_blank">WhatsApp</a>
+       <a class="tg" href="https://t.me/onlyxyroo" target="_blank">Telegram</a>
+       <a class="ch" href="https://whatsapp.com/channel/0029VaZnB5MI1rckbtamYL2J" target="_blank">Channel WhatsApp</a>
+     </div>
+  </section>
+
+  <section>
+    <h2>Katalog Produk</h2>
+    <div class="products">
+      <!-- Produk 1 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150.png?text=Produk+1" alt="Produk 1">
+        <h3>Panel Pterodactyl</h3>
+        <p>Mempermudah pemasangan bot WhatsApp.</p>
+        <p><strong>Harga:</strong> Rp1.000-10.000</p>
+        <a href="https://wa.me/6281234567890?text=Halo+saya+ingin+beli+panel+pterodactyl" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150.png?text=Produk+2" alt="Produk 2">
+        <h3>jasa bug WhatsApp</h3>
+        <p>Deskripsi produk 2.</p>
+        <p><strong>Harga:</strong> Rp5.000</p>
+        <a href="https://wa.me/6281234567890?text=Halo+saya+beli+jasa+bug+WhatsApp" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150.png?text=Produk+3" alt="Produk 3">
+        <h3>jasa banned WhatsApp</h3>
+        <p>Deskripsi produk 3.</p>
+        <p><strong>Harga:</strong> Rp50.000</p>
+        <a href="https://wa.me/6281234567890?text=Halo+saya+ingin+beli+jasa+banned+WhatsApp" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150.png?text=Produk+4" alt="Produk 4">
+        <h3>murid banned WhatsApp</h3>
+        <p>Deskripsi produk 4.</p>
+        <p><strong>Harga:</strong> Rp15.000</p>
+        <a href="https://wa.me/6281234567890?text=Halo+saya+ingin+join+murid+banned+WhatsApp" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150.png?text=Produk+5" alt="Produk 5">
+        <h3>bot WhatsApp</h3>
+        <p>Deskripsi produk 5.</p>
+        <p><strong>Harga:</strong> Rp5.000/minggu</p>
+        <a href="https://wa.me/6281234567890?text=Halo+saya+ingin+sewa+bot+WhatsApp" target="_blank">Beli via WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Metode Pembayaran</h2>
+    <p>Kamu bisa melakukan pembayaran melalui DANA atau QRIS berikut:</p>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-top: 30px;">
+      <div style="background:linear-gradient(135deg, #4a90e2, #50e3c2); padding: 20px; border-radius: 10px; width: 260px;">
+        <img src="https://files.catbox.moe/9ma9t6.jpg" alt="Logo DANA" style="width: 100px; margin-bottom: 10px;">
+        <p><strong>Nomor DANA:</strong><br>088210147448</p>
+        <button onclick="navigator.clipboard.writeText('088210147448'); alert('Nomor DANA disalin!');">Salin Nomor</button>
+      </div>
+      <div style="background:linear-gradient(135deg, #4a90e2, #50e3c2); padding: 20px; border-radius: 10px; width: 260px;">
+        <img src="https://files.catbox.moe/jslrjq.jpg" alt="Logo QRIS" style="width: 100px; margin-bottom: 10px;">
+        <p><strong>Scan QRIS untuk bayar:</strong></p>
+        <img src="https://files.catbox.moe/ci414k.jpg?text=QRIS" alt="QRIS Code" style="width: 100%; border-radius: 6px;">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kontak Kami</h2>
+    <div class="form-container">
+      <form>
+        <input type="text" name="nama" placeholder="Nama Anda" required>
+        <input type="email" name="email" placeholder="Email Anda" required>
+        <textarea name="pesan" rows="5" placeholder="Pesan Anda" required></textarea>
+        <button type="submit">KIRIM PESAN</button>
+      </form>
+    </div>
+  </section>
+
+  <footer style="background: #1a1a1a; padding: 40px 20px; color: #aaa; text-align: center; margin-top: 60px;">
+    <h2 style="color: #fff;">Tentang Kami</h2>
+    <p style="max-width: 600px; margin: 20px auto;">
+      Kami adalah DARKTzY, tim kreatif yang fokus pada pengembangan produk digital berkualitas, seperti template, tools, dan layanan personalisasi. Kami berkomitmen memberikan pengalaman terbaik bagi setiap pelanggan dengan layanan yang cepat, aman, dan terpercaya.
+    </p>
+    <p>&copy; 2025 DARKTzY. All rights reserved.</p>
+  </footer>
+</body>
+</html>
